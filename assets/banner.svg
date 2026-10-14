@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Shawn Zhang — AI for Science</title>
+  <desc id="description">Scientific machine learning and reproducible simulation, with Rust, CUDA, and molecular dynamics. A restrained navy banner with teal molecular linework.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1422"/>
+      <stop offset="1" stop-color="#102738"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.85" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#4dd3bf" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#4dd3bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#71c5c0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#71c5c0" stop-opacity="0.10"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <rect width="1200" height="320" fill="url(#light)"/>
+    <path d="M730 0V320M790 0V320M850 0V320M910 0V320M970 0V320M1030 0V320M1090 0V320M1150 0V320M680 40H1200M680 100H1200M680 160H1200M680 220H1200M680 280H1200" fill="none" stroke="url(#fade)"/>
+    <rect x="52" y="52" width="3" height="24" rx="1.5" fill="#66d9c3"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+      <text x="70" y="69" fill="#a5b8c8" font-size="15" font-weight="600" letter-spacing="3">SHAWN ZHANG</text>
+      <text x="52" y="150" fill="#f2f6f7" font-size="65" font-weight="650" letter-spacing="-1.8">AI for Science</text>
+      <text x="55" y="194" fill="#b6c7d4" font-size="25" font-weight="400">Scientific ML · Reproducible simulation</text>
+      <text x="55" y="263" fill="#72cbbb" font-size="13" font-weight="600" letter-spacing="2.1">RUST / CUDA / MOLECULAR DYNAMICS</text>
+    </g>
+    <g fill="none" stroke="#66cdbc" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M848 121 917 80 986 121 986 199 917 240 848 199Z" stroke-opacity="0.56" stroke-width="1.7"/>
+      <path d="M917 80 1055 80 1124 121 1124 199 1055 240 917 240M986 121 1055 80M986 199 1055 240M1055 80V160L1124 199M1055 160 986 199M1055 160 1124 121" stroke-opacity="0.27" stroke-width="1.3"/>
+      <path d="M848 121 917 160 986 121M917 160V240M848 199 917 160M917 80V160L986 199" stroke-opacity="0.25" stroke-width="1.3"/>
+      <path d="M848 121 815 102M848 199 808 222M1124 121 1164 98M1124 199 1164 222M917 80 917 43M1055 240 1055 277" stroke-opacity="0.19" stroke-width="1.3"/>
+    </g>
+    <g fill="#8de1d1">
+      <circle cx="848" cy="121" r="5"/>
+      <circle cx="917" cy="80" r="6"/>
+      <circle cx="986" cy="121" r="5"/>
+      <circle cx="986" cy="199" r="6"/>
+      <circle cx="917" cy="240" r="5"/>
+      <circle cx="848" cy="199" r="4"/>
+      <circle cx="917" cy="160" r="4" fill-opacity="0.6"/>
+      <circle cx="1055" cy="80" r="4" fill-opacity="0.65"/>
+      <circle cx="1055" cy="160" r="4" fill-opacity="0.65"/>
+      <circle cx="1124" cy="121" r="4" fill-opacity="0.5"/>
+      <circle cx="1124" cy="199" r="4" fill-opacity="0.5"/>
+      <circle cx="1055" cy="240" r="4" fill-opacity="0.65"/>
+    </g>
+    <circle cx="917" cy="80" r="12" fill="none" stroke="#8de1d1" stroke-opacity="0.17"/>
+    <circle cx="986" cy="199" r="12" fill="none" stroke="#8de1d1" stroke-opacity="0.17"/>
+  </g>
+</svg>
